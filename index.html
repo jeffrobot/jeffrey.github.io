@@ -1,0 +1,1189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JangHan Yoon</title>
+
+  <!--
+    - favicon
+  -->
+  <!-- <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon"> -->
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box"><a href="#">
+          <img src="./assets/images/jhy.png" alt="Temidayo" width="80">
+        </figure>
+
+        <div class="info-content"><a href="#">
+          <h1 class="name" title="Temidayo">Jang Han Yoon</h1>
+
+          <p class="title">Student in Yonsei University</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:jeffrobot99@yonsei.ac.kr" class="contact-link">jeffrobot99@yonsei.ac.kr</a>
+            </div>
+
+          </li>
+
+          <!-- <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+2349031561204" class="contact-link">+23490315CLICK</a>
+            </div>
+
+          </li> -->
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Seoul, Korea</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/janghan-yoon-336199198/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+        
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <!-- <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Research</button>
+          </li> -->
+<!-- 
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li> -->
+<!-- 
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li> -->
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Hello there!
+          </p>
+
+          <p>
+            I am a student interested in AI and Software Development. I am currently studying Computer Science and Engineering at Yonsei University, South Korea.
+          </p>
+
+          <p>
+            I have several years of experience in Startups and Software Development. I am currently working as an undergraduate intern at MIRLAB, Yonsei University (advised by Prof. Youngjae Yu) with a focus on Multimodal Learning, Visual Language Models, and Music Generation.
+          </p>
+
+          <p>
+            Feel free to reach out to me if you have any questions or if you would like to collaborate on research or project.
+          </p>
+        </section>
+
+        <section class="about-text">
+          <h3 class="h3">Research Interests</h3>
+          <section class="about-text">
+                <h4 style="margin-top: 10px; margin-left: 10px;"> <b>BGMGen</b> (2024-01 Software Capstone Project)</h4>
+                <p style="margin-top: 10px; margin-left: 15px;">Music Generation / Visual Language Models / Multimodal Learning</p>
+                <p style="margin-left: 20px;"> We present BGMGen, a novel framework for generating background music that seamlessly aligns with video content. BGMGen leverages multimodal learning models (CLIP/MusicGen) to conditionally create music based on the visual information in videos, specifically focusing on the emotional tone and human actions depicted. Our framework evaluates the congruence of the generated music with the video using the VAD (Valence-Arousal-Dominance) space, a vector space that effectively represents emotional states. By integrating visual cues and emotional context, BGMGen aims to enhance the overall audiovisual experience through precisely tailored background music.</p>
+                
+                <h4 style="margin-top: 10px; margin-left: 10px;"> <b>(TBD)</b> (NAACL 2025)</h4>
+                <p style="margin-top: 10px; margin-left: 15px;">LLM Reasoning / Visual Language Models / Data Visualization</p>
+                <p style="margin-left: 20px;"> Currently conducting reasearch related to the topics mentioned above.</p>
+                
+            
+          </section>
+
+        </section>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="school-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <div class="timeline-item-logo">
+                <img src="assets/images/yonsei.png" alt="Yonsei University Logo" class="timeline-logo">
+              </div>
+              <h4 class="h4 timeline-item-title">Yonsei University, School of Computing</h4>
+              <span>Mar. 2019 — Present</span>
+              <p class="timeline-text">BEng Computer Science and Engineering</p>
+            </li>
+
+            <li class="timeline-item">
+              <div class="timeline-item-logo">
+                <img src="assets/images/hkust.png" alt="HKUST Logo" class="timeline-logo">
+              </div>
+              <h4 class="h4 timeline-item-title">HKUST, School of Engineering</h4>
+              <span>Aug. 2018 — Feb. 2019</span>
+              <p class="timeline-text">BEng Engineering, (Attended)</p>
+            </li>
+
+            <li class="timeline-item">
+              <div class="timeline-item-logo">
+                <img src="assets/images/tbs.png" alt="British School Logo" class="timeline-logo">
+              </div>
+              <h4 class="h4 timeline-item-title">The British School, New Delhi</h4>
+              <span>Aug. 2014 — Aug. 2018</span>
+              <p class="timeline-text">Class of 2018, International Baccalaureate Diploma</p>
+            </li>
+
+          </ol>
+        </section>
+
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <div class="timeline-item-logo">
+                <img src="assets/images/mirlab.png" alt="MIRLAB Logo" class="timeline-logo">
+              </div>
+              <h4 class="h4 timeline-item-title">Undergraduate Intern, MIRLAB (Multimodal Intelligence Research LAB)</h4>
+              <span>Apr. 2024 — Present</span>
+              <p class="timeline-text">
+                Interested in Multimodal Learning, LLM Reasoning, and Music Generation.
+              </p>            
+            </li>
+
+            <li class="timeline-item">
+              <div class="timeline-item-logo">
+                <img src="assets/images/innoyard.png" alt="INNOYARD Logo" class="timeline-logo">
+              </div>
+
+              <h4 class="h4 timeline-item-title">Software Developer, Innoyard</h4>
+
+              <span>Nov. 2020 — Jan. 2023</span>
+
+              <p class="timeline-text">
+                • <b>InnoScan</b> Contributed to human body 3D scanning using mobile device LIDAR sensors, with a focus on applying
+                  open-source depth map estimation methods for more accurate results <br>
+                • <b>Speedoo</b> Developed web application for infants, which facilitates manual testing to determine whether an infant
+                  has Plagiocephaly or Craniosynostosis. (LINK: https://speedoo.app/#homeView)
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="rocket-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Extracurricular Activities</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <div class="timeline-item-logo">
+                <img src="assets/images/gdsc.png" alt="GDSC Logo" class="timeline-logo">
+              </div>
+
+              <h4 class="h4 timeline-item-title">Google Developer Group, Yonsei</h4>
+
+              <span>Sept. 2023 — Present</span>
+
+              <p class="timeline-text">
+                ML/AI Participant (Core)
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+              <div class="timeline-item-logo">
+                <img src="assets/images/student-council.png" alt="GDSC Logo" class="timeline-logo">
+              </div>
+
+              <h4 class="h4 timeline-item-title">Student Council, Department of Computer Science</h4>
+
+              <span>Jan. 2019 — Dec. 2020</span>
+
+              <p class="timeline-text">
+                Promotion Manager
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <!--
+          - service
+        -->
+<!-- 
+        <section class="service">
+
+          <h3 class="h3 service-title">What I do</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="content icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Content Writing</h4>
+
+                <p class="service-item-text">
+                  I am a full-stack writer who writes content for b2b companies. 
+                  I also write cool, effective, and shameless copy that drives desired actions from your audience. 
+                  I specialise in business, marketing, tech, and other topics. 
+                  I am versatile and adaptable, which makes me excel at creating amazing content on any given topic.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Website Development</h4>
+
+                <p class="service-item-text">
+                  I'm the guy that launched a website literally 5 minutes after being asked to, by one of my clients. 
+                  I build responsive websites for individuals and organizations with a focus on aesthetics, usability, and user experience. 
+                  My goal is to help you turn your business into a fully functioning machine that converts visitors into customers, then customers into repeat customers.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Design</h4>
+
+                <p class="service-item-text">
+                  I'm an Ideas Artist. I help individuals like you and businesses like yours with strategic design and identity work 
+                  to align your brand's message and positioning with your target audience through narrative, language and visual storytelling + design thinking. 
+                  I specialize in creating brand identities, website designs, mobile apps designs, and more for businesses.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-strategy.svg" alt="strategy icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Strategy</h4>
+
+                <p class="service-item-text">
+                  I'm a digital strategist pro who has helped entrepreneurs and small businesses build online and social media strategies that help them grow.
+                  I help businesses like yours create digital strategies that are effective and resonate with your target audiences.
+                  I believe that strategy is the key that unlocks business success, so I get deep into how we can create more value for your business.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section> -->
+
+
+        <!--
+          - testimonials
+        -->
+<!--         
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Education</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/yonsei.png" alt="Yonsei" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel Lewis</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    I was introduced to Temidayo just as I was about to embark on a major business project, and he came through for me with flying colours.
+                    His writing is fresh, creative and engaging, and it's the best quality I've seen in my many years as a writer.
+                    The guy is a beast, he just writes and writes, good stuff!
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Rebecca Jaxon" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Rebecca Jaxon</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    I have been working with Temidayo for over a year now and I am very happy with his content writing services.
+                    He is very responsive, patient, reliable and delivers high quality content on time.
+                    I would highly recommend him to anyone looking for fast results and professional copywriting or content writing services.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-3.png" alt="Dorothy Adedotun" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Dorothy Adedotun</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    There is no one else I will trust with my design and development work.
+                    Temidayo is a true professional, and the quality of his work is unmatched.
+                    He takes the time to understand your needs, and then goes above and beyond to exceed even your highest expectations.
+                    If you have any kind of design or web development need, I urge you to talk to him first!
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Mesioye Johnson" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Mesioye Johnson</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Temidayo is a magician, and I'm not talking about his tricks. He is the most helpful digital strategists I have ever met.
+                    The way he approaches his work and the way he helps you achieve your goals, is truly refreshing.
+                    He's not afraid to go the extra mile to help you get to where you want to be. He's the real deal.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section> -->
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel Lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  I was introduced to Temidayo just as I was about to embark on a major business project, and he came through for me with flying colours.
+                    His writing is fresh, creative and engaging, and it's the best quality I've seen in my many years as a writer.
+                    The guy is a beast, he just writes and writes, good stuff!
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+<!-- 
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Clients</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="https://foenixhub.com/">
+                <img src="./assets/images/logo-1-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://mesileum.com/">
+                <img src="./assets/images/logo-2-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://ezdia.com/">
+                <img src="./assets/images/logo-3-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://hotcars.com/">
+                <img src="./assets/images/logo-4-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://expolitusng.com/">
+                <img src="./assets/images/logo-5-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://unseriouscollective.com/">
+                <img src="./assets/images/logo-6-color.png" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section> -->
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="research" data-page="research">
+
+        <header>
+          <h2 class="h2 article-title">Research</h2>
+        </header>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Problem-solving</h5>
+                <data value="100">100%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 98%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Writing</h5>
+                <data value="100"100%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 95%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Development</h5>
+                <data value="100">100%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Design</h5>
+                <data value="100">100%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Brand Design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web Design</button>
+            </li>
+            
+            <li class="filter-item">
+              <button class="active" data-filter-btn>Mobile App Design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Brand Design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web Design</button>
+              </li>
+              
+              <li class="select-item">
+                <button data-select-item>Mobile App Design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web Development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="brand design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.jpg" alt="bamboo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Bamboo</h3>
+
+                <p class="project-category">Brand Design</p>
+
+              </a>
+            </li>
+            
+            <li class="project-item  active" data-filter-item data-category="brand design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.jpg" alt="boomify" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Boomify</h3>
+
+                <p class="project-category">Brand Design</p>
+
+              </a>
+            </li>
+            
+            <li class="project-item  active" data-filter-item data-category="brand design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.jpg" alt="coffeebury" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Coffeebury</h3>
+
+                <p class="project-category">Brand Design</p>
+
+              </a>
+            </li>
+            
+            <li class="project-item  active" data-filter-item data-category="brand design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.jpg" alt="lagos" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Lagos</h3>
+
+                <p class="project-category">Brand Design</p>
+
+              </a>
+            </li>
+            
+            <li class="project-item  active" data-filter-item data-category="brand design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.jpg" alt="yum crunchie" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Yum Crunchie</h3>
+
+                <p class="project-category">Brand Design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="mobile app design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.png" alt="furniture app" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Furniture App</h3>
+
+                <p class="project-category">Mobile App Design</p>
+
+              </a>
+            </li>
+            
+            <li class="project-item  active" data-filter-item data-category="mobile app design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-7.jpg" alt="ecommerce app" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">ECommerce App</h3>
+
+                <p class="project-category">Mobile App Design</p>
+
+              </a>
+            </li>
+            
+            <li class="project-item  active" data-filter-item data-category="mobile app design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-8.jpg" alt="signup" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Forum Signup App</h3>
+
+                <p class="project-category">Mobile App Design</p>
+
+              </a>
+            </li>
+            
+            <li class="project-item  active" data-filter-item data-category="mobile app design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-9.png" alt="music app" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Music App</h3>
+
+                <p class="project-category">Mobile App Design</p>
+
+              </a>
+            </li>
+            
+            <li class="project-item  active" data-filter-item data-category="mobile app design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-10.png" alt="minimalist app" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Minimalist App</h3>
+
+                <p class="project-category">Mobile App Design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://expolitusng.com/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-11.jpg" alt="expolitusng" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Expolitus NG</h3>
+
+                <p class="project-category">Web Design</p>
+
+              </a>
+            </li>
+            
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://temidayo.xyz/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-12.jpg" alt="temidayo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Temidayo</h3>
+
+                <p class="project-category">Web Design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://mesileum.com/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-13.jpg" alt="mesileum" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Mesileum</h3>
+
+                <p class="project-category">Web Design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://talkingpenenterprise.com/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-14.jpg" alt="talkingpen" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Talkingpen Enterprise</h3>
+
+                <p class="project-category">Web Design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://learnmoneymaking.com/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-15.jpg" alt="lmm" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Learn Money Making</h3>
+
+                <p class="project-category">Web Design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="development">
+              <a href="https://emminexmedia.com/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-16.jpg" alt="emminex media" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Emminex Media</h3>
+
+                <p class="project-category">Development</p>
+
+              </a>
+            </li>
+            
+            <li class="project-item  active" data-filter-item data-category="development">
+              <a href="https://unseriouscollective.com/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-17.jpg" alt="unserious collective" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Unserious Collective</h3>
+
+                <p class="project-category">Development</p>
+
+              </a>
+            </li>
+            
+            <li class="project-item  active" data-filter-item data-category="development">
+              <a href="https://kolawolesamueladebayo.com/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-18.jpg" alt="ksa" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">KSA Website</h3>
+
+                <p class="project-category">Development</p>
+
+              </a>
+            </li>
+            
+            <li class="project-item  active" data-filter-item data-category="development">
+              <a href="https://scholar.foenixhub.com/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-19.jpg" alt="foenix scholar" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Foenix Scholar</h3>
+
+                <p class="project-category">Development</p>
+
+              </a>
+            </li>
+            
+            <li class="project-item  active" data-filter-item data-category="development">
+              <a href="https://foenixhub.com/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-20.jpg" alt="foenix hub" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Foenix Hub</h3>
+
+                <p class="project-category">Development</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
